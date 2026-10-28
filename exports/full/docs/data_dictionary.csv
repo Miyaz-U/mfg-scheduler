@@ -1,0 +1,124 @@
+table,field,type,required,unique,constraint,unit,derived,description,is_primary_key
+Product,product_id,str,True,True,pattern `^PROD-\d{4}-\d{6}$`,,,Unique product key.,True
+Product,sku,str,True,True,pattern `^SKU-\d{4}$`,,,Stock-keeping unit; used inside route IDs.,False
+Product,product_name,str,True,False,-,,,Human-readable name.,False
+Product,product_family,str,True,False,"one of: FAM-A, FAM-B, FAM-C, FAM-D, FAM-E, FAM-F",,,Family used for sequence-dependent changeovers.,False
+Product,effective_from,date,True,False,-,,,First date the product may be ordered.,False
+Product,effective_to,date,False,False,-,,,Last date it may be ordered; empty means open-ended.,False
+Product,lifecycle_state,str,True,False,"one of: ACTIVE, OBSOLETE",,,Lifecycle state.,False
+Routing,route_id,str,True,True,pattern `^ROUTE-SKU-\d{4}-\d{2}$`,,,Unique routing key: ROUTE-<sku>-<version>.,True
+Routing,product_id,str,True,False,-,,,Product this routing makes.,False
+Routing,route_version,int,True,False,>= 1,,,Version number.,False
+Routing,effective_from,date,True,False,-,,,First date the routing is valid.,False
+Routing,effective_to,date,False,False,-,,,Last valid date; empty means open-ended.,False
+Routing,lifecycle_state,str,True,False,"one of: DRAFT, ACTIVE, RETIRED",,,Lifecycle state.,False
+RoutingStep,route_id,str,True,False,-,,,Parent routing.,True
+RoutingStep,step_seq,int,True,False,>= 1,,,"Position in the routing, starting at 1.",True
+RoutingStep,op_type,str,True,False,"one of: CUT, MILL, DRILL, WELD, PAINT, ASSEMBLE, TEST",,,Machine group that can do this step.,False
+RoutingStep,run_minutes_per_unit,float,True,False,>= 0.1,min/unit,,Run time per unit.,False
+RoutingStep,fixed_minutes,float,True,False,>= 0,min,,Fixed time per operation (load/unload).,False
+RoutingStep,tool_group,str,False,False,pattern `^TOOL-\d{2}$`,,,Shared tooling code; empty if none (D6).,False
+Machine,machine_id,str,True,True,pattern `^MACH-\d{3}$`,,,Unique machine key.,True
+Machine,machine_name,str,True,False,-,,,Human-readable name.,False
+Machine,machine_group,str,True,False,"one of: CUT, MILL, DRILL, WELD, PAINT, ASSEMBLE, TEST",,,Type of work the machine does; must match RoutingStep.op_type.,False
+Machine,lifecycle_state,str,True,False,"one of: ACTIVE, MAINTENANCE, RETIRED",,,Lifecycle state.,False
+Machine,operators_required,int,True,False,>= 1; <= 3,people,,Crew needed to run the machine.,False
+Machine,speed_factor,float,True,False,>= 0.5; <= 1.5,,,1.0 = standard speed; 1.2 = 20 percent faster.,False
+Machine,commissioned_on,date,True,False,-,,,Date the machine entered service.,False
+Machine,effective_to,date,False,False,-,,,Retirement date; empty if still in service.,False
+RoutingStepMachine,route_id,str,True,False,-,,,Routing.,True
+RoutingStepMachine,step_seq,int,True,False,>= 1,,,Step number.,True
+RoutingStepMachine,machine_id,str,True,False,-,,,Eligible machine.,True
+RoutingStepMachine,is_preferred,bool,True,False,-,,,Preferred machine for this step.,False
+Material,material_id,str,True,True,pattern `^MAT-\d{4}$`,,,Unique material key.,True
+Material,material_name,str,True,False,-,,,Human-readable name.,False
+Material,material_category,str,True,False,"one of: STEEL, ALUMINUM, PLASTIC, FASTENER, COATING, ELECTRONICS, PACKAGING",,,Category.,False
+Material,unit_of_measure,str,True,False,"one of: KG, EA, L, M",,,Unit used for quantities.,False
+Material,standard_lead_time_days,int,True,False,>= 1; <= 60,days,,Typical supplier lead time.,False
+RoutingStepMaterial,route_id,str,True,False,-,,,Routing.,True
+RoutingStepMaterial,step_seq,int,True,False,>= 1,,,Step number.,True
+RoutingStepMaterial,material_id,str,True,False,-,,,Material used.,True
+RoutingStepMaterial,qty_per_unit,float,True,False,>= 0.001,material UoM,,Material per finished unit.,False
+InventoryLot,lot_id,str,True,True,pattern `^LOT-\d{4}-\d{6}$`,,,Unique lot key.,True
+InventoryLot,material_id,str,True,False,-,,,Material in this lot.,False
+InventoryLot,quantity_received,float,True,False,>= 0.001,,,Lot size in the material's unit.,False
+InventoryLot,expected_available_at,datetime,True,False,-,,,Originally promised availability.,False
+InventoryLot,available_at,datetime,True,False,-,,,Actual availability; equals expected unless the lot is delayed.,False
+InventoryLot,delay_days,int,True,False,>= 0,days,"max(0, whole days between expected_available_at and available_at)",Whole days the lot is late.,False
+InventoryLot,is_delayed,bool,True,False,-,,delay_days > 0,True if the lot is late.,False
+InventoryLot,quantity_allocated,float,True,False,>= 0,,sum of MaterialRequirement.required_qty where allocated_lot_id = lot_id,Quantity reserved by requirements.,False
+InventoryLot,quantity_remaining,float,True,False,>= 0,,quantity_received - quantity_allocated,Unreserved quantity.,False
+InventoryLot,lot_status,str,True,False,"one of: IN_TRANSIT, AVAILABLE, EXHAUSTED",,EXHAUSTED if quantity_remaining = 0; IN_TRANSIT if available_at is after horizon start; else AVAILABLE,Snapshot status at the horizon start.,False
+MachineCalendar,calendar_id,str,True,True,pattern `^CAL-MACH-\d{3}-\d{8}-[ABC]$`,,,Unique calendar-slot key.,True
+MachineCalendar,machine_id,str,True,False,-,,,Machine this slot belongs to.,False
+MachineCalendar,calendar_date,date,True,False,-,,,Date the shift starts.,False
+MachineCalendar,shift_code,str,True,False,"one of: A, B, C",,,Shift identifier.,False
+MachineCalendar,shift_start,datetime,True,False,-,,,Shift start.,False
+MachineCalendar,shift_end,datetime,True,False,-,,,Shift end (may be on the next day).,False
+MachineCalendar,planned_break_minutes,int,True,False,>= 0,min,,Scheduled breaks.,False
+MachineCalendar,downtime_minutes,int,True,False,>= 0,min,,Maintenance or breakdown time.,False
+MachineCalendar,downtime_reason,str,True,False,"one of: NONE, PLANNED_MAINTENANCE, BREAKDOWN",,,Why the machine is down (NONE if not).,False
+MachineCalendar,operators_assigned,int,True,False,>= 0; <= 6,people,,People staffed on this slot.,False
+MachineCalendar,available_minutes,int,True,False,>= 0,min,(shift_end - shift_start) in minutes - planned_break_minutes - downtime_minutes,Usable production time in the slot.,False
+ChangeoverMatrix,machine_group,str,True,False,"one of: CUT, MILL, DRILL, WELD, PAINT, ASSEMBLE, TEST",,,Machine group the setup applies to.,True
+ChangeoverMatrix,from_family,str,True,False,"one of: FAM-A, FAM-B, FAM-C, FAM-D, FAM-E, FAM-F",,,Family just finished.,True
+ChangeoverMatrix,to_family,str,True,False,"one of: FAM-A, FAM-B, FAM-C, FAM-D, FAM-E, FAM-F",,,Family about to start.,True
+ChangeoverMatrix,changeover_minutes,int,True,False,>= 0; <= 240,min,,Setup time.,False
+ProductionOrder,order_id,str,True,True,pattern `^ORD-\d{4}-\d{6}$`,,,Unique order key.,True
+ProductionOrder,product_id,str,True,False,-,,,Product ordered.,False
+ProductionOrder,route_id,str,True,False,-,,,Routing version frozen at order time.,False
+ProductionOrder,quantity,int,True,False,>= 1; <= 5000,EA,,Units to make.,False
+ProductionOrder,release_date,date,True,False,-,,,Earliest date work may start.,False
+ProductionOrder,due_date,date,True,False,-,,,Customer due date.,False
+ProductionOrder,priority,int,True,False,"one of: 1, 2, 3, 4",,,"1 = most urgent, 4 = least.",False
+ProductionOrder,is_urgent,bool,True,False,-,,priority == 1,Urgent flag.,False
+ProductionOrder,order_status,str,True,False,"one of: NEW, PLANNED, IN_PROGRESS, COMPLETED, CANCELLED",,,Current status (history is in OrderStatusEvent).,False
+Operation,operation_id,str,True,True,pattern `^OP-ORD-\d{4}-\d{6}-\d{2}$`,,,Unique operation key: OP-<order-id>-<step>.,True
+Operation,order_id,str,True,False,-,,,Owning order.,False
+Operation,route_id,str,True,False,-,,,Routing the step comes from.,False
+Operation,step_seq,int,True,False,>= 1,,,Step number within the routing.,False
+Operation,predecessor_operation_id,str,False,False,-,,,Operation that must finish first; empty for step 1.,False
+Operation,standard_minutes,float,True,False,>= 0.1,min,RoutingStep.fixed_minutes + order quantity * RoutingStep.run_minutes_per_unit,Run time at standard machine speed.,False
+Operation,operation_status,str,True,False,"one of: PENDING, SCHEDULED, IN_PROGRESS, DONE, BLOCKED",,,Current status.,False
+MaterialRequirement,requirement_id,str,True,True,pattern `^MREQ-\d{4}-\d{6}$`,,,Unique requirement key.,True
+MaterialRequirement,operation_id,str,True,False,-,,,Operation needing the material.,False
+MaterialRequirement,material_id,str,True,False,-,,,Material needed.,False
+MaterialRequirement,allocated_lot_id,str,False,False,-,,,Lot reserved; empty if none found.,False
+MaterialRequirement,required_qty,float,True,False,>= 0.001,material UoM,RoutingStepMaterial.qty_per_unit * ProductionOrder.quantity,Quantity needed.,False
+OperationSchedule,schedule_id,str,True,True,pattern `^SCH-\d{4}-\d{6}$`,,,Unique schedule key.,True
+OperationSchedule,operation_id,str,True,False,-,,,Operation being scheduled.,False
+OperationSchedule,machine_id,str,True,False,-,,,Machine chosen.,False
+OperationSchedule,calendar_id,str,True,False,-,,,Shift slot the operation sits inside (D2).,False
+OperationSchedule,planned_start,datetime,True,False,-,,,Start of changeover (or run if none).,False
+OperationSchedule,planned_end,datetime,True,False,-,,,End of run.,False
+OperationSchedule,previous_schedule_id,str,False,False,-,,,Previous schedule row on the same machine; empty if first.,False
+OperationSchedule,changeover_minutes,int,True,False,>= 0,min,"ChangeoverMatrix lookup (machine group, previous family, this family); 0 if first on machine",Setup before the run.,False
+OperationSchedule,run_minutes,int,True,False,>= 1,min,ceil(Operation.standard_minutes / Machine.speed_factor),Run time on this machine.,False
+OperationSchedule,schedule_version,int,True,False,>= 1,,,Increases on each reschedule.,False
+OperationSchedule,schedule_status,str,True,False,"one of: PLANNED, SUPERSEDED, CANCELLED",,,Current status (history in ScheduleEvent).,False
+OrderStatusEvent,event_id,str,True,True,pattern `^OEV-\d{4}-\d{6}$`,,,Unique event key.,True
+OrderStatusEvent,order_id,str,True,False,-,,,Order that changed.,False
+OrderStatusEvent,from_status,str,False,False,"one of: NEW, PLANNED, IN_PROGRESS, COMPLETED, CANCELLED",,,Previous status; empty on creation.,False
+OrderStatusEvent,to_status,str,True,False,"one of: NEW, PLANNED, IN_PROGRESS, COMPLETED, CANCELLED",,,New status.,False
+OrderStatusEvent,event_ts,datetime,True,False,-,,,When the change happened.,False
+OrderStatusEvent,reason,str,False,False,-,,,Why it changed.,False
+ScheduleEvent,event_id,str,True,True,pattern `^SEV-\d{4}-\d{6}$`,,,Unique event key.,True
+ScheduleEvent,schedule_id,str,True,False,-,,,Schedule row that changed.,False
+ScheduleEvent,from_status,str,False,False,"one of: PLANNED, SUPERSEDED, CANCELLED",,,Previous status; empty on creation.,False
+ScheduleEvent,to_status,str,True,False,"one of: PLANNED, SUPERSEDED, CANCELLED",,,New status.,False
+ScheduleEvent,event_ts,datetime,True,False,-,,,When the change happened.,False
+ScheduleEvent,reason,str,False,False,-,,,Why it changed.,False
+ConstraintViolation,violation_id,str,True,True,pattern `^VIO-\d{4}-\d{6}$`,,,Unique violation key.,True
+ConstraintViolation,operation_id,str,True,False,-,,,Operation affected.,False
+ConstraintViolation,schedule_id,str,False,False,-,,,Schedule row involved; empty if unscheduled.,False
+ConstraintViolation,violation_type,str,True,False,"one of: MACHINE_OVERLAP, PRECEDENCE_VIOLATED, MATERIAL_NOT_AVAILABLE, OUTSIDE_SHIFT_CALENDAR, CHANGEOVER_OMITTED, UNSTAFFED_SHIFT, SHARED_TOOL_CONFLICT, MACHINE_NOT_ELIGIBLE, NO_CAPACITY_IN_HORIZON, PREDECESSOR_UNSCHEDULED, LATE_DELIVERY",,,Kind of violation.,False
+ConstraintViolation,severity,str,True,False,"one of: HARD, SOFT",,,HARD breaks feasibility; SOFT is a quality miss.,False
+ConstraintViolation,detected_at,datetime,True,False,-,,,When the check ran.,False
+ConstraintViolation,details,str,True,False,-,,,Plain-language explanation.,False
+GroundTruth,case_id,str,True,True,pattern `^GT-\d{4}-\d{6}$`,,,Unique case key.,True
+GroundTruth,issue_type,str,True,False,"one of: MACHINE_OVERLAP, PRECEDENCE_VIOLATED, MATERIAL_NOT_AVAILABLE, OUTSIDE_SHIFT_CALENDAR, CHANGEOVER_OMITTED, BOUNDARY_STARTS_AT_PREDECESSOR_END, BOUNDARY_STARTS_AT_MATERIAL_AVAILABLE, BOUNDARY_ENDS_AT_SHIFT_END",,,Injected anomaly or boundary-case type.,False
+GroundTruth,entity_type,str,True,False,one of: OperationSchedule,,,Table holding the record.,False
+GroundTruth,entity_id,str,True,False,-,,,Primary key of the record.,False
+GroundTruth,ground_truth,str,True,False,"one of: INJECTED_VIOLATION, VALID_BOUNDARY",,,Label.,False
+GroundTruth,expected_decision,str,True,False,"one of: FLAG_AND_REPORT, ACCEPT",,,What a validator should do.,False
+GroundTruth,description,str,True,False,-,,,Exactly what was changed (or why it is valid).,False

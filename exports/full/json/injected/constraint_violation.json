@@ -1,0 +1,29 @@
+[
+  {
+    "violation_id":"VIO-2026-000001",
+    "operation_id":"OP-ORD-2026-000388-04",
+    "schedule_id":"SCH-2026-001995",
+    "violation_type":"LATE_DELIVERY",
+    "severity":"SOFT",
+    "detected_at":"2026-11-05 06:33:00",
+    "details":"Order ORD-2026-000388 completes 2026-11-27 07:56:00 but is due by 2026-11-27 00:00:00; late by 7.9 hours."
+  },
+  {
+    "violation_id":"VIO-2026-000002",
+    "operation_id":"OP-ORD-2026-000404-04",
+    "schedule_id":"SCH-2026-001927",
+    "violation_type":"LATE_DELIVERY",
+    "severity":"SOFT",
+    "detected_at":"2026-11-12 09:53:00",
+    "details":"Order ORD-2026-000404 completes 2026-11-21 01:56:00 but is due by 2026-11-21 00:00:00; late by 1.9 hours."
+  },
+  {
+    "violation_id":"VIO-2026-000003",
+    "operation_id":"OP-ORD-2026-000413-05",
+    "schedule_id":"SCH-2026-001999",
+    "violation_type":"LATE_DELIVERY",
+    "severity":"SOFT",
+    "detected_at":"2026-11-09 06:51:00",
+    "details":"Order ORD-2026-000413 completes 2026-11-27 10:15:00 but is due by 2026-11-26 00:00:00; late by 34.2 hours."
+  }
+]

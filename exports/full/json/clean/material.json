@@ -1,0 +1,1402 @@
+[
+  {
+    "material_id":"MAT-0001",
+    "material_name":"Steel Grade-01",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0002",
+    "material_name":"Steel Grade-02",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":14
+  },
+  {
+    "material_id":"MAT-0003",
+    "material_name":"Steel Grade-03",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0004",
+    "material_name":"Steel Grade-04",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0005",
+    "material_name":"Steel Grade-05",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":14
+  },
+  {
+    "material_id":"MAT-0006",
+    "material_name":"Steel Grade-06",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":17
+  },
+  {
+    "material_id":"MAT-0007",
+    "material_name":"Steel Grade-07",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":17
+  },
+  {
+    "material_id":"MAT-0008",
+    "material_name":"Steel Grade-08",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":19
+  },
+  {
+    "material_id":"MAT-0009",
+    "material_name":"Steel Grade-09",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0010",
+    "material_name":"Steel Grade-10",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":19
+  },
+  {
+    "material_id":"MAT-0011",
+    "material_name":"Steel Grade-11",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":13
+  },
+  {
+    "material_id":"MAT-0012",
+    "material_name":"Steel Grade-12",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":12
+  },
+  {
+    "material_id":"MAT-0013",
+    "material_name":"Steel Grade-13",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0014",
+    "material_name":"Steel Grade-14",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":18
+  },
+  {
+    "material_id":"MAT-0015",
+    "material_name":"Steel Grade-15",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":21
+  },
+  {
+    "material_id":"MAT-0016",
+    "material_name":"Steel Grade-16",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0017",
+    "material_name":"Steel Grade-17",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":13
+  },
+  {
+    "material_id":"MAT-0018",
+    "material_name":"Steel Grade-18",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":16
+  },
+  {
+    "material_id":"MAT-0019",
+    "material_name":"Steel Grade-19",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":12
+  },
+  {
+    "material_id":"MAT-0020",
+    "material_name":"Steel Grade-20",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0021",
+    "material_name":"Steel Grade-21",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0022",
+    "material_name":"Steel Grade-22",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":18
+  },
+  {
+    "material_id":"MAT-0023",
+    "material_name":"Steel Grade-23",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0024",
+    "material_name":"Steel Grade-24",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0025",
+    "material_name":"Steel Grade-25",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":11
+  },
+  {
+    "material_id":"MAT-0026",
+    "material_name":"Steel Grade-26",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0027",
+    "material_name":"Steel Grade-27",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":19
+  },
+  {
+    "material_id":"MAT-0028",
+    "material_name":"Steel Grade-28",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0029",
+    "material_name":"Steel Grade-29",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0030",
+    "material_name":"Steel Grade-30",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0031",
+    "material_name":"Steel Grade-31",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0032",
+    "material_name":"Steel Grade-32",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0033",
+    "material_name":"Steel Grade-33",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":20
+  },
+  {
+    "material_id":"MAT-0034",
+    "material_name":"Steel Grade-34",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":18
+  },
+  {
+    "material_id":"MAT-0035",
+    "material_name":"Steel Grade-35",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0036",
+    "material_name":"Steel Grade-36",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":17
+  },
+  {
+    "material_id":"MAT-0037",
+    "material_name":"Steel Grade-37",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":17
+  },
+  {
+    "material_id":"MAT-0038",
+    "material_name":"Steel Grade-38",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":18
+  },
+  {
+    "material_id":"MAT-0039",
+    "material_name":"Steel Grade-39",
+    "material_category":"STEEL",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":11
+  },
+  {
+    "material_id":"MAT-0040",
+    "material_name":"Steel Grade-40",
+    "material_category":"STEEL",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0041",
+    "material_name":"Aluminum Grade-01",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":28
+  },
+  {
+    "material_id":"MAT-0042",
+    "material_name":"Aluminum Grade-02",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0043",
+    "material_name":"Aluminum Grade-03",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":11
+  },
+  {
+    "material_id":"MAT-0044",
+    "material_name":"Aluminum Grade-04",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":21
+  },
+  {
+    "material_id":"MAT-0045",
+    "material_name":"Aluminum Grade-05",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":18
+  },
+  {
+    "material_id":"MAT-0046",
+    "material_name":"Aluminum Grade-06",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0047",
+    "material_name":"Aluminum Grade-07",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":25
+  },
+  {
+    "material_id":"MAT-0048",
+    "material_name":"Aluminum Grade-08",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":26
+  },
+  {
+    "material_id":"MAT-0049",
+    "material_name":"Aluminum Grade-09",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":28
+  },
+  {
+    "material_id":"MAT-0050",
+    "material_name":"Aluminum Grade-10",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":22
+  },
+  {
+    "material_id":"MAT-0051",
+    "material_name":"Aluminum Grade-11",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":21
+  },
+  {
+    "material_id":"MAT-0052",
+    "material_name":"Aluminum Grade-12",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0053",
+    "material_name":"Aluminum Grade-13",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0054",
+    "material_name":"Aluminum Grade-14",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":21
+  },
+  {
+    "material_id":"MAT-0055",
+    "material_name":"Aluminum Grade-15",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0056",
+    "material_name":"Aluminum Grade-16",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":13
+  },
+  {
+    "material_id":"MAT-0057",
+    "material_name":"Aluminum Grade-17",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":11
+  },
+  {
+    "material_id":"MAT-0058",
+    "material_name":"Aluminum Grade-18",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0059",
+    "material_name":"Aluminum Grade-19",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":23
+  },
+  {
+    "material_id":"MAT-0060",
+    "material_name":"Aluminum Grade-20",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0061",
+    "material_name":"Aluminum Grade-21",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0062",
+    "material_name":"Aluminum Grade-22",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":17
+  },
+  {
+    "material_id":"MAT-0063",
+    "material_name":"Aluminum Grade-23",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0064",
+    "material_name":"Aluminum Grade-24",
+    "material_category":"ALUMINUM",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0065",
+    "material_name":"Plastic Grade-01",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0066",
+    "material_name":"Plastic Grade-02",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":3
+  },
+  {
+    "material_id":"MAT-0067",
+    "material_name":"Plastic Grade-03",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":3
+  },
+  {
+    "material_id":"MAT-0068",
+    "material_name":"Plastic Grade-04",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":11
+  },
+  {
+    "material_id":"MAT-0069",
+    "material_name":"Plastic Grade-05",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0070",
+    "material_name":"Plastic Grade-06",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":12
+  },
+  {
+    "material_id":"MAT-0071",
+    "material_name":"Plastic Grade-07",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0072",
+    "material_name":"Plastic Grade-08",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0073",
+    "material_name":"Plastic Grade-09",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":3
+  },
+  {
+    "material_id":"MAT-0074",
+    "material_name":"Plastic Grade-10",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0075",
+    "material_name":"Plastic Grade-11",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0076",
+    "material_name":"Plastic Grade-12",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0077",
+    "material_name":"Plastic Grade-13",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0078",
+    "material_name":"Plastic Grade-14",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0079",
+    "material_name":"Plastic Grade-15",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":11
+  },
+  {
+    "material_id":"MAT-0080",
+    "material_name":"Plastic Grade-16",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0081",
+    "material_name":"Plastic Grade-17",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":12
+  },
+  {
+    "material_id":"MAT-0082",
+    "material_name":"Plastic Grade-18",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":12
+  },
+  {
+    "material_id":"MAT-0083",
+    "material_name":"Plastic Grade-19",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0084",
+    "material_name":"Plastic Grade-20",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0085",
+    "material_name":"Plastic Grade-21",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":11
+  },
+  {
+    "material_id":"MAT-0086",
+    "material_name":"Plastic Grade-22",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0087",
+    "material_name":"Plastic Grade-23",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":14
+  },
+  {
+    "material_id":"MAT-0088",
+    "material_name":"Plastic Grade-24",
+    "material_category":"PLASTIC",
+    "unit_of_measure":"KG",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0089",
+    "material_name":"Fastener Grade-01",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0090",
+    "material_name":"Fastener Grade-02",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":2
+  },
+  {
+    "material_id":"MAT-0091",
+    "material_name":"Fastener Grade-03",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0092",
+    "material_name":"Fastener Grade-04",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0093",
+    "material_name":"Fastener Grade-05",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0094",
+    "material_name":"Fastener Grade-06",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0095",
+    "material_name":"Fastener Grade-07",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0096",
+    "material_name":"Fastener Grade-08",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0097",
+    "material_name":"Fastener Grade-09",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0098",
+    "material_name":"Fastener Grade-10",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0099",
+    "material_name":"Fastener Grade-11",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0100",
+    "material_name":"Fastener Grade-12",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0101",
+    "material_name":"Fastener Grade-13",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0102",
+    "material_name":"Fastener Grade-14",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0103",
+    "material_name":"Fastener Grade-15",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":2
+  },
+  {
+    "material_id":"MAT-0104",
+    "material_name":"Fastener Grade-16",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":3
+  },
+  {
+    "material_id":"MAT-0105",
+    "material_name":"Fastener Grade-17",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0106",
+    "material_name":"Fastener Grade-18",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0107",
+    "material_name":"Fastener Grade-19",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":3
+  },
+  {
+    "material_id":"MAT-0108",
+    "material_name":"Fastener Grade-20",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0109",
+    "material_name":"Fastener Grade-21",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0110",
+    "material_name":"Fastener Grade-22",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0111",
+    "material_name":"Fastener Grade-23",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0112",
+    "material_name":"Fastener Grade-24",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0113",
+    "material_name":"Fastener Grade-25",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0114",
+    "material_name":"Fastener Grade-26",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0115",
+    "material_name":"Fastener Grade-27",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0116",
+    "material_name":"Fastener Grade-28",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0117",
+    "material_name":"Fastener Grade-29",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0118",
+    "material_name":"Fastener Grade-30",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0119",
+    "material_name":"Fastener Grade-31",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0120",
+    "material_name":"Fastener Grade-32",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":8
+  },
+  {
+    "material_id":"MAT-0121",
+    "material_name":"Fastener Grade-33",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0122",
+    "material_name":"Fastener Grade-34",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0123",
+    "material_name":"Fastener Grade-35",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0124",
+    "material_name":"Fastener Grade-36",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0125",
+    "material_name":"Fastener Grade-37",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0126",
+    "material_name":"Fastener Grade-38",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0127",
+    "material_name":"Fastener Grade-39",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0128",
+    "material_name":"Fastener Grade-40",
+    "material_category":"FASTENER",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0129",
+    "material_name":"Coating Grade-01",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0130",
+    "material_name":"Coating Grade-02",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":20
+  },
+  {
+    "material_id":"MAT-0131",
+    "material_name":"Coating Grade-03",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":20
+  },
+  {
+    "material_id":"MAT-0132",
+    "material_name":"Coating Grade-04",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":12
+  },
+  {
+    "material_id":"MAT-0133",
+    "material_name":"Coating Grade-05",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0134",
+    "material_name":"Coating Grade-06",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0135",
+    "material_name":"Coating Grade-07",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":19
+  },
+  {
+    "material_id":"MAT-0136",
+    "material_name":"Coating Grade-08",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":11
+  },
+  {
+    "material_id":"MAT-0137",
+    "material_name":"Coating Grade-09",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":9
+  },
+  {
+    "material_id":"MAT-0138",
+    "material_name":"Coating Grade-10",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":12
+  },
+  {
+    "material_id":"MAT-0139",
+    "material_name":"Coating Grade-11",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0140",
+    "material_name":"Coating Grade-12",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":11
+  },
+  {
+    "material_id":"MAT-0141",
+    "material_name":"Coating Grade-13",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":14
+  },
+  {
+    "material_id":"MAT-0142",
+    "material_name":"Coating Grade-14",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0143",
+    "material_name":"Coating Grade-15",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0144",
+    "material_name":"Coating Grade-16",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":19
+  },
+  {
+    "material_id":"MAT-0145",
+    "material_name":"Coating Grade-17",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":19
+  },
+  {
+    "material_id":"MAT-0146",
+    "material_name":"Coating Grade-18",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":19
+  },
+  {
+    "material_id":"MAT-0147",
+    "material_name":"Coating Grade-19",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":10
+  },
+  {
+    "material_id":"MAT-0148",
+    "material_name":"Coating Grade-20",
+    "material_category":"COATING",
+    "unit_of_measure":"L",
+    "standard_lead_time_days":19
+  },
+  {
+    "material_id":"MAT-0149",
+    "material_name":"Electronics Grade-01",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":45
+  },
+  {
+    "material_id":"MAT-0150",
+    "material_name":"Electronics Grade-02",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":24
+  },
+  {
+    "material_id":"MAT-0151",
+    "material_name":"Electronics Grade-03",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":17
+  },
+  {
+    "material_id":"MAT-0152",
+    "material_name":"Electronics Grade-04",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":17
+  },
+  {
+    "material_id":"MAT-0153",
+    "material_name":"Electronics Grade-05",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":23
+  },
+  {
+    "material_id":"MAT-0154",
+    "material_name":"Electronics Grade-06",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":32
+  },
+  {
+    "material_id":"MAT-0155",
+    "material_name":"Electronics Grade-07",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":26
+  },
+  {
+    "material_id":"MAT-0156",
+    "material_name":"Electronics Grade-08",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":24
+  },
+  {
+    "material_id":"MAT-0157",
+    "material_name":"Electronics Grade-09",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":40
+  },
+  {
+    "material_id":"MAT-0158",
+    "material_name":"Electronics Grade-10",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":18
+  },
+  {
+    "material_id":"MAT-0159",
+    "material_name":"Electronics Grade-11",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":28
+  },
+  {
+    "material_id":"MAT-0160",
+    "material_name":"Electronics Grade-12",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":19
+  },
+  {
+    "material_id":"MAT-0161",
+    "material_name":"Electronics Grade-13",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":36
+  },
+  {
+    "material_id":"MAT-0162",
+    "material_name":"Electronics Grade-14",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":18
+  },
+  {
+    "material_id":"MAT-0163",
+    "material_name":"Electronics Grade-15",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":43
+  },
+  {
+    "material_id":"MAT-0164",
+    "material_name":"Electronics Grade-16",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":34
+  },
+  {
+    "material_id":"MAT-0165",
+    "material_name":"Electronics Grade-17",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":26
+  },
+  {
+    "material_id":"MAT-0166",
+    "material_name":"Electronics Grade-18",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":15
+  },
+  {
+    "material_id":"MAT-0167",
+    "material_name":"Electronics Grade-19",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":40
+  },
+  {
+    "material_id":"MAT-0168",
+    "material_name":"Electronics Grade-20",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":17
+  },
+  {
+    "material_id":"MAT-0169",
+    "material_name":"Electronics Grade-21",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":36
+  },
+  {
+    "material_id":"MAT-0170",
+    "material_name":"Electronics Grade-22",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":20
+  },
+  {
+    "material_id":"MAT-0171",
+    "material_name":"Electronics Grade-23",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":40
+  },
+  {
+    "material_id":"MAT-0172",
+    "material_name":"Electronics Grade-24",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":35
+  },
+  {
+    "material_id":"MAT-0173",
+    "material_name":"Electronics Grade-25",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":20
+  },
+  {
+    "material_id":"MAT-0174",
+    "material_name":"Electronics Grade-26",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":21
+  },
+  {
+    "material_id":"MAT-0175",
+    "material_name":"Electronics Grade-27",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":14
+  },
+  {
+    "material_id":"MAT-0176",
+    "material_name":"Electronics Grade-28",
+    "material_category":"ELECTRONICS",
+    "unit_of_measure":"M",
+    "standard_lead_time_days":33
+  },
+  {
+    "material_id":"MAT-0177",
+    "material_name":"Packaging Grade-01",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0178",
+    "material_name":"Packaging Grade-02",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0179",
+    "material_name":"Packaging Grade-03",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0180",
+    "material_name":"Packaging Grade-04",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0181",
+    "material_name":"Packaging Grade-05",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0182",
+    "material_name":"Packaging Grade-06",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0183",
+    "material_name":"Packaging Grade-07",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0184",
+    "material_name":"Packaging Grade-08",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":5
+  },
+  {
+    "material_id":"MAT-0185",
+    "material_name":"Packaging Grade-09",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0186",
+    "material_name":"Packaging Grade-10",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0187",
+    "material_name":"Packaging Grade-11",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":2
+  },
+  {
+    "material_id":"MAT-0188",
+    "material_name":"Packaging Grade-12",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0189",
+    "material_name":"Packaging Grade-13",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0190",
+    "material_name":"Packaging Grade-14",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":7
+  },
+  {
+    "material_id":"MAT-0191",
+    "material_name":"Packaging Grade-15",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":2
+  },
+  {
+    "material_id":"MAT-0192",
+    "material_name":"Packaging Grade-16",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":3
+  },
+  {
+    "material_id":"MAT-0193",
+    "material_name":"Packaging Grade-17",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0194",
+    "material_name":"Packaging Grade-18",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0195",
+    "material_name":"Packaging Grade-19",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":2
+  },
+  {
+    "material_id":"MAT-0196",
+    "material_name":"Packaging Grade-20",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":2
+  },
+  {
+    "material_id":"MAT-0197",
+    "material_name":"Packaging Grade-21",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":3
+  },
+  {
+    "material_id":"MAT-0198",
+    "material_name":"Packaging Grade-22",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":6
+  },
+  {
+    "material_id":"MAT-0199",
+    "material_name":"Packaging Grade-23",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":4
+  },
+  {
+    "material_id":"MAT-0200",
+    "material_name":"Packaging Grade-24",
+    "material_category":"PACKAGING",
+    "unit_of_measure":"EA",
+    "standard_lead_time_days":5
+  }
+]

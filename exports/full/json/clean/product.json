@@ -1,0 +1,902 @@
+[
+  {
+    "product_id":"PROD-2026-000001",
+    "sku":"SKU-0001",
+    "product_name":"Reinforced Manifold 0001",
+    "product_family":"FAM-F",
+    "effective_from":"2023-02-28",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000002",
+    "sku":"SKU-0002",
+    "product_name":"Compact Manifold 0002",
+    "product_family":"FAM-B",
+    "effective_from":"2024-09-20",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000003",
+    "sku":"SKU-0003",
+    "product_name":"Heavy Plate 0003",
+    "product_family":"FAM-B",
+    "effective_from":"2023-11-09",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000004",
+    "sku":"SKU-0004",
+    "product_name":"Precision Gear 0004",
+    "product_family":"FAM-D",
+    "effective_from":"2024-05-02",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000005",
+    "sku":"SKU-0005",
+    "product_name":"Reinforced Flange 0005",
+    "product_family":"FAM-F",
+    "effective_from":"2023-01-18",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000006",
+    "sku":"SKU-0006",
+    "product_name":"Heavy Gear 0006",
+    "product_family":"FAM-F",
+    "effective_from":"2025-06-27",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000007",
+    "sku":"SKU-0007",
+    "product_name":"Reinforced Coupling 0007",
+    "product_family":"FAM-D",
+    "effective_from":"2024-03-19",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000008",
+    "sku":"SKU-0008",
+    "product_name":"Standard Plate 0008",
+    "product_family":"FAM-F",
+    "effective_from":"2024-08-11",
+    "effective_to":"2026-05-23",
+    "lifecycle_state":"OBSOLETE"
+  },
+  {
+    "product_id":"PROD-2026-000009",
+    "sku":"SKU-0009",
+    "product_name":"Reinforced Plate 0009",
+    "product_family":"FAM-E",
+    "effective_from":"2024-02-06",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000010",
+    "sku":"SKU-0010",
+    "product_name":"Compact Housing 0010",
+    "product_family":"FAM-C",
+    "effective_from":"2023-07-09",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000011",
+    "sku":"SKU-0011",
+    "product_name":"Precision Shaft 0011",
+    "product_family":"FAM-A",
+    "effective_from":"2024-02-22",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000012",
+    "sku":"SKU-0012",
+    "product_name":"Heavy Manifold 0012",
+    "product_family":"FAM-D",
+    "effective_from":"2024-07-07",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000013",
+    "sku":"SKU-0013",
+    "product_name":"Standard Plate 0013",
+    "product_family":"FAM-C",
+    "effective_from":"2025-03-31",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000014",
+    "sku":"SKU-0014",
+    "product_name":"Standard Flange 0014",
+    "product_family":"FAM-F",
+    "effective_from":"2023-03-30",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000015",
+    "sku":"SKU-0015",
+    "product_name":"Heavy Cover 0015",
+    "product_family":"FAM-C",
+    "effective_from":"2024-01-20",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000016",
+    "sku":"SKU-0016",
+    "product_name":"Precision Bearing Block 0016",
+    "product_family":"FAM-D",
+    "effective_from":"2023-06-09",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000017",
+    "sku":"SKU-0017",
+    "product_name":"Compact Gear 0017",
+    "product_family":"FAM-D",
+    "effective_from":"2025-12-21",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000018",
+    "sku":"SKU-0018",
+    "product_name":"Reinforced Housing 0018",
+    "product_family":"FAM-B",
+    "effective_from":"2023-03-26",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000019",
+    "sku":"SKU-0019",
+    "product_name":"Reinforced Flange 0019",
+    "product_family":"FAM-B",
+    "effective_from":"2023-07-09",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000020",
+    "sku":"SKU-0020",
+    "product_name":"Standard Manifold 0020",
+    "product_family":"FAM-E",
+    "effective_from":"2023-03-01",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000021",
+    "sku":"SKU-0021",
+    "product_name":"Reinforced Cover 0021",
+    "product_family":"FAM-E",
+    "effective_from":"2024-05-19",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000022",
+    "sku":"SKU-0022",
+    "product_name":"Light Flange 0022",
+    "product_family":"FAM-E",
+    "effective_from":"2025-04-11",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000023",
+    "sku":"SKU-0023",
+    "product_name":"Standard Coupling 0023",
+    "product_family":"FAM-E",
+    "effective_from":"2025-02-06",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000024",
+    "sku":"SKU-0024",
+    "product_name":"Light Bracket 0024",
+    "product_family":"FAM-A",
+    "effective_from":"2025-05-25",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000025",
+    "sku":"SKU-0025",
+    "product_name":"Heavy Plate 0025",
+    "product_family":"FAM-C",
+    "effective_from":"2023-01-13",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000026",
+    "sku":"SKU-0026",
+    "product_name":"Standard Housing 0026",
+    "product_family":"FAM-D",
+    "effective_from":"2023-11-26",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000027",
+    "sku":"SKU-0027",
+    "product_name":"Standard Flange 0027",
+    "product_family":"FAM-E",
+    "effective_from":"2024-02-04",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000028",
+    "sku":"SKU-0028",
+    "product_name":"Precision Manifold 0028",
+    "product_family":"FAM-B",
+    "effective_from":"2025-10-18",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000029",
+    "sku":"SKU-0029",
+    "product_name":"Heavy Coupling 0029",
+    "product_family":"FAM-D",
+    "effective_from":"2024-09-15",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000030",
+    "sku":"SKU-0030",
+    "product_name":"Heavy Housing 0030",
+    "product_family":"FAM-E",
+    "effective_from":"2025-04-25",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000031",
+    "sku":"SKU-0031",
+    "product_name":"Standard Coupling 0031",
+    "product_family":"FAM-C",
+    "effective_from":"2024-05-25",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000032",
+    "sku":"SKU-0032",
+    "product_name":"Reinforced Coupling 0032",
+    "product_family":"FAM-D",
+    "effective_from":"2025-11-18",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000033",
+    "sku":"SKU-0033",
+    "product_name":"Reinforced Gear 0033",
+    "product_family":"FAM-E",
+    "effective_from":"2023-09-01",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000034",
+    "sku":"SKU-0034",
+    "product_name":"Precision Bracket 0034",
+    "product_family":"FAM-E",
+    "effective_from":"2023-07-03",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000035",
+    "sku":"SKU-0035",
+    "product_name":"Standard Bracket 0035",
+    "product_family":"FAM-D",
+    "effective_from":"2024-07-13",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000036",
+    "sku":"SKU-0036",
+    "product_name":"Compact Shaft 0036",
+    "product_family":"FAM-A",
+    "effective_from":"2024-09-21",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000037",
+    "sku":"SKU-0037",
+    "product_name":"Heavy Shaft 0037",
+    "product_family":"FAM-A",
+    "effective_from":"2025-01-15",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000038",
+    "sku":"SKU-0038",
+    "product_name":"Reinforced Housing 0038",
+    "product_family":"FAM-D",
+    "effective_from":"2025-01-30",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000039",
+    "sku":"SKU-0039",
+    "product_name":"Heavy Bearing Block 0039",
+    "product_family":"FAM-A",
+    "effective_from":"2024-03-08",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000040",
+    "sku":"SKU-0040",
+    "product_name":"Standard Manifold 0040",
+    "product_family":"FAM-F",
+    "effective_from":"2023-10-05",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000041",
+    "sku":"SKU-0041",
+    "product_name":"Standard Plate 0041",
+    "product_family":"FAM-D",
+    "effective_from":"2025-08-17",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000042",
+    "sku":"SKU-0042",
+    "product_name":"Reinforced Gear 0042",
+    "product_family":"FAM-F",
+    "effective_from":"2025-08-23",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000043",
+    "sku":"SKU-0043",
+    "product_name":"Standard Flange 0043",
+    "product_family":"FAM-A",
+    "effective_from":"2023-07-02",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000044",
+    "sku":"SKU-0044",
+    "product_name":"Reinforced Housing 0044",
+    "product_family":"FAM-E",
+    "effective_from":"2023-01-10",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000045",
+    "sku":"SKU-0045",
+    "product_name":"Light Coupling 0045",
+    "product_family":"FAM-A",
+    "effective_from":"2025-04-04",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000046",
+    "sku":"SKU-0046",
+    "product_name":"Heavy Flange 0046",
+    "product_family":"FAM-D",
+    "effective_from":"2023-04-28",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000047",
+    "sku":"SKU-0047",
+    "product_name":"Reinforced Flange 0047",
+    "product_family":"FAM-F",
+    "effective_from":"2023-07-27",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000048",
+    "sku":"SKU-0048",
+    "product_name":"Reinforced Gear 0048",
+    "product_family":"FAM-B",
+    "effective_from":"2024-12-26",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000049",
+    "sku":"SKU-0049",
+    "product_name":"Compact Bearing Block 0049",
+    "product_family":"FAM-B",
+    "effective_from":"2025-02-13",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000050",
+    "sku":"SKU-0050",
+    "product_name":"Compact Cover 0050",
+    "product_family":"FAM-C",
+    "effective_from":"2023-04-29",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000051",
+    "sku":"SKU-0051",
+    "product_name":"Light Coupling 0051",
+    "product_family":"FAM-C",
+    "effective_from":"2024-06-01",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000052",
+    "sku":"SKU-0052",
+    "product_name":"Compact Manifold 0052",
+    "product_family":"FAM-B",
+    "effective_from":"2023-03-30",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000053",
+    "sku":"SKU-0053",
+    "product_name":"Reinforced Manifold 0053",
+    "product_family":"FAM-C",
+    "effective_from":"2024-05-30",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000054",
+    "sku":"SKU-0054",
+    "product_name":"Light Gear 0054",
+    "product_family":"FAM-A",
+    "effective_from":"2025-03-26",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000055",
+    "sku":"SKU-0055",
+    "product_name":"Precision Gear 0055",
+    "product_family":"FAM-B",
+    "effective_from":"2023-07-02",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000056",
+    "sku":"SKU-0056",
+    "product_name":"Reinforced Gear 0056",
+    "product_family":"FAM-A",
+    "effective_from":"2024-07-11",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000057",
+    "sku":"SKU-0057",
+    "product_name":"Heavy Flange 0057",
+    "product_family":"FAM-E",
+    "effective_from":"2023-08-18",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000058",
+    "sku":"SKU-0058",
+    "product_name":"Standard Manifold 0058",
+    "product_family":"FAM-F",
+    "effective_from":"2024-10-16",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000059",
+    "sku":"SKU-0059",
+    "product_name":"Reinforced Bracket 0059",
+    "product_family":"FAM-A",
+    "effective_from":"2025-06-20",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000060",
+    "sku":"SKU-0060",
+    "product_name":"Light Coupling 0060",
+    "product_family":"FAM-D",
+    "effective_from":"2025-03-20",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000061",
+    "sku":"SKU-0061",
+    "product_name":"Heavy Flange 0061",
+    "product_family":"FAM-B",
+    "effective_from":"2023-12-09",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000062",
+    "sku":"SKU-0062",
+    "product_name":"Reinforced Coupling 0062",
+    "product_family":"FAM-B",
+    "effective_from":"2025-03-19",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000063",
+    "sku":"SKU-0063",
+    "product_name":"Compact Bracket 0063",
+    "product_family":"FAM-A",
+    "effective_from":"2023-10-17",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000064",
+    "sku":"SKU-0064",
+    "product_name":"Standard Bearing Block 0064",
+    "product_family":"FAM-D",
+    "effective_from":"2024-01-09",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000065",
+    "sku":"SKU-0065",
+    "product_name":"Precision Shaft 0065",
+    "product_family":"FAM-C",
+    "effective_from":"2024-04-20",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000066",
+    "sku":"SKU-0066",
+    "product_name":"Heavy Manifold 0066",
+    "product_family":"FAM-F",
+    "effective_from":"2025-09-04",
+    "effective_to":"2026-06-24",
+    "lifecycle_state":"OBSOLETE"
+  },
+  {
+    "product_id":"PROD-2026-000067",
+    "sku":"SKU-0067",
+    "product_name":"Compact Bearing Block 0067",
+    "product_family":"FAM-A",
+    "effective_from":"2023-09-18",
+    "effective_to":"2026-07-26",
+    "lifecycle_state":"OBSOLETE"
+  },
+  {
+    "product_id":"PROD-2026-000068",
+    "sku":"SKU-0068",
+    "product_name":"Precision Cover 0068",
+    "product_family":"FAM-B",
+    "effective_from":"2025-04-15",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000069",
+    "sku":"SKU-0069",
+    "product_name":"Standard Bearing Block 0069",
+    "product_family":"FAM-F",
+    "effective_from":"2023-07-03",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000070",
+    "sku":"SKU-0070",
+    "product_name":"Reinforced Coupling 0070",
+    "product_family":"FAM-D",
+    "effective_from":"2024-06-23",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000071",
+    "sku":"SKU-0071",
+    "product_name":"Standard Flange 0071",
+    "product_family":"FAM-D",
+    "effective_from":"2023-10-07",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000072",
+    "sku":"SKU-0072",
+    "product_name":"Standard Housing 0072",
+    "product_family":"FAM-B",
+    "effective_from":"2023-08-15",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000073",
+    "sku":"SKU-0073",
+    "product_name":"Heavy Shaft 0073",
+    "product_family":"FAM-A",
+    "effective_from":"2023-11-30",
+    "effective_to":"2026-03-21",
+    "lifecycle_state":"OBSOLETE"
+  },
+  {
+    "product_id":"PROD-2026-000074",
+    "sku":"SKU-0074",
+    "product_name":"Reinforced Bearing Block 0074",
+    "product_family":"FAM-B",
+    "effective_from":"2023-07-17",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000075",
+    "sku":"SKU-0075",
+    "product_name":"Compact Manifold 0075",
+    "product_family":"FAM-F",
+    "effective_from":"2023-04-02",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000076",
+    "sku":"SKU-0076",
+    "product_name":"Light Bracket 0076",
+    "product_family":"FAM-C",
+    "effective_from":"2024-03-19",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000077",
+    "sku":"SKU-0077",
+    "product_name":"Heavy Gear 0077",
+    "product_family":"FAM-E",
+    "effective_from":"2024-12-01",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000078",
+    "sku":"SKU-0078",
+    "product_name":"Reinforced Coupling 0078",
+    "product_family":"FAM-F",
+    "effective_from":"2025-05-26",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000079",
+    "sku":"SKU-0079",
+    "product_name":"Compact Gear 0079",
+    "product_family":"FAM-C",
+    "effective_from":"2024-04-15",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000080",
+    "sku":"SKU-0080",
+    "product_name":"Standard Manifold 0080",
+    "product_family":"FAM-D",
+    "effective_from":"2024-05-10",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000081",
+    "sku":"SKU-0081",
+    "product_name":"Light Manifold 0081",
+    "product_family":"FAM-A",
+    "effective_from":"2024-11-27",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000082",
+    "sku":"SKU-0082",
+    "product_name":"Heavy Coupling 0082",
+    "product_family":"FAM-B",
+    "effective_from":"2023-09-22",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000083",
+    "sku":"SKU-0083",
+    "product_name":"Heavy Plate 0083",
+    "product_family":"FAM-F",
+    "effective_from":"2023-09-03",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000084",
+    "sku":"SKU-0084",
+    "product_name":"Heavy Bearing Block 0084",
+    "product_family":"FAM-C",
+    "effective_from":"2024-02-17",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000085",
+    "sku":"SKU-0085",
+    "product_name":"Reinforced Coupling 0085",
+    "product_family":"FAM-B",
+    "effective_from":"2024-11-06",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000086",
+    "sku":"SKU-0086",
+    "product_name":"Reinforced Coupling 0086",
+    "product_family":"FAM-E",
+    "effective_from":"2024-07-08",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000087",
+    "sku":"SKU-0087",
+    "product_name":"Light Flange 0087",
+    "product_family":"FAM-E",
+    "effective_from":"2023-07-01",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000088",
+    "sku":"SKU-0088",
+    "product_name":"Heavy Bearing Block 0088",
+    "product_family":"FAM-E",
+    "effective_from":"2024-03-23",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000089",
+    "sku":"SKU-0089",
+    "product_name":"Precision Plate 0089",
+    "product_family":"FAM-E",
+    "effective_from":"2023-11-20",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000090",
+    "sku":"SKU-0090",
+    "product_name":"Reinforced Cover 0090",
+    "product_family":"FAM-F",
+    "effective_from":"2025-01-06",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000091",
+    "sku":"SKU-0091",
+    "product_name":"Light Coupling 0091",
+    "product_family":"FAM-A",
+    "effective_from":"2023-09-24",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000092",
+    "sku":"SKU-0092",
+    "product_name":"Heavy Shaft 0092",
+    "product_family":"FAM-B",
+    "effective_from":"2023-11-06",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000093",
+    "sku":"SKU-0093",
+    "product_name":"Standard Housing 0093",
+    "product_family":"FAM-C",
+    "effective_from":"2024-03-02",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000094",
+    "sku":"SKU-0094",
+    "product_name":"Precision Bearing Block 0094",
+    "product_family":"FAM-C",
+    "effective_from":"2025-06-22",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000095",
+    "sku":"SKU-0095",
+    "product_name":"Reinforced Housing 0095",
+    "product_family":"FAM-C",
+    "effective_from":"2023-05-07",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000096",
+    "sku":"SKU-0096",
+    "product_name":"Compact Shaft 0096",
+    "product_family":"FAM-A",
+    "effective_from":"2023-05-23",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000097",
+    "sku":"SKU-0097",
+    "product_name":"Compact Housing 0097",
+    "product_family":"FAM-C",
+    "effective_from":"2024-06-23",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000098",
+    "sku":"SKU-0098",
+    "product_name":"Precision Shaft 0098",
+    "product_family":"FAM-A",
+    "effective_from":"2024-02-24",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000099",
+    "sku":"SKU-0099",
+    "product_name":"Reinforced Bracket 0099",
+    "product_family":"FAM-F",
+    "effective_from":"2023-10-06",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "product_id":"PROD-2026-000100",
+    "sku":"SKU-0100",
+    "product_name":"Compact Housing 0100",
+    "product_family":"FAM-C",
+    "effective_from":"2025-06-29",
+    "effective_to":null,
+    "lifecycle_state":"ACTIVE"
+  }
+]

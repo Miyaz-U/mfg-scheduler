@@ -1,0 +1,176 @@
+{
+  "scale": "full",
+  "dataset": "clean",
+  "seed": 20261022,
+  "summary": {
+    "overall": "PASS",
+    "checks": 18,
+    "PASS": 15,
+    "FAIL": 0,
+    "SKIPPED": 3
+  },
+  "checks": [
+    {
+      "check_id": "keys",
+      "category": "Primary-key uniqueness",
+      "name": "Primary keys and unique fields have no duplicates",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "foreign_keys",
+      "category": "Foreign-key integrity",
+      "name": "Every foreign key resolves to a parent row",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "enums",
+      "category": "Allowed enums",
+      "name": "Enum fields hold only allowed values",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "fields",
+      "category": "Field validity",
+      "name": "Required fields filled; types, ranges and ID patterns hold",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "dates",
+      "category": "Date ordering",
+      "name": "Dates and timestamps are in a valid order and inside the horizon",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "derived",
+      "category": "Arithmetic reconciliation",
+      "name": "Derived values recompute correctly from source records",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "totals",
+      "category": "Arithmetic reconciliation",
+      "name": "Totals reconcile across tables",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "lifecycle",
+      "category": "Lifecycle transitions",
+      "name": "Status histories follow allowed transitions",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "duplicates",
+      "category": "Duplicates",
+      "name": "No duplicate rows or duplicate business records",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "master_rules",
+      "category": "Business rules",
+      "name": "Master-data rules (routings, eligibility, changeovers)",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "schedule_integrity",
+      "category": "Business rules",
+      "name": "Schedule integrity (IDs, statuses, durations, histories)",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "hard_constraints",
+      "category": "Schedule hard constraints",
+      "name": "Hard constraints hold (or match the labelled anomalies)",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "volumes",
+      "category": "Coverage and variation",
+      "name": "Row counts match the configured volumes",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "scenarios",
+      "category": "Coverage and variation",
+      "name": "Required scenarios and edge cases are present",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "variation",
+      "category": "Coverage and variation",
+      "name": "Distributions show meaningful variation",
+      "status": "PASS",
+      "issues": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "check_id": "gt_schema",
+      "category": "Ground-truth separation",
+      "name": "Ground truth conforms to its schema",
+      "status": "SKIPPED",
+      "issues": 0,
+      "examples": [],
+      "detail": "no ground truth supplied (clean dataset)"
+    },
+    {
+      "check_id": "gt_separation",
+      "category": "Ground-truth separation",
+      "name": "Ground truth is not leaked into input tables",
+      "status": "SKIPPED",
+      "issues": 0,
+      "examples": [],
+      "detail": "no ground truth supplied (clean dataset)"
+    },
+    {
+      "check_id": "gt_references",
+      "category": "Ground-truth separation",
+      "name": "Labels reference real rows and are consistent",
+      "status": "SKIPPED",
+      "issues": 0,
+      "examples": [],
+      "detail": "no ground truth supplied (clean dataset)"
+    }
+  ]
+}

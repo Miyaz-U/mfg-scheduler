@@ -1,0 +1,115 @@
+{
+  "scale": {
+    "seed": 20261022,
+    "horizon_start": "2026-11-02",
+    "horizon_days": 28
+  },
+  "volume": {
+    "orders": 500,
+    "orders_planned": 500,
+    "orders_not_fully_planned": 0,
+    "operations": 2000,
+    "operations_scheduled": 2000,
+    "operations_blocked": 0,
+    "operations_scheduled_pct": 100.0
+  },
+  "time": {
+    "schedule_start": "2026-11-02 06:00:00",
+    "schedule_end": "2026-11-27 10:15:00",
+    "makespan_hours": 604.25,
+    "makespan_days": 25.18,
+    "finishes_days_after_horizon_start": 25.43
+  },
+  "delivery": {
+    "on_time_orders": 497,
+    "late_orders": 3,
+    "on_time_rate_pct": 99.4,
+    "total_tardiness_hours": 44.11,
+    "mean_tardiness_hours_of_late_orders": 14.7,
+    "max_tardiness_hours": 34.25,
+    "mean_flow_time_hours": 122.27,
+    "mean_queue_hours": 114.7,
+    "by_priority": {
+      "P1": {
+        "orders": 45,
+        "planned": 45,
+        "on_time_rate_pct": 97.78,
+        "mean_lateness_hours": -128.07
+      },
+      "P2": {
+        "orders": 90,
+        "planned": 90,
+        "on_time_rate_pct": 100.0,
+        "mean_lateness_hours": -231.33
+      },
+      "P3": {
+        "orders": 235,
+        "planned": 235,
+        "on_time_rate_pct": 100.0,
+        "mean_lateness_hours": -216.23
+      },
+      "P4": {
+        "orders": 130,
+        "planned": 130,
+        "on_time_rate_pct": 98.46,
+        "mean_lateness_hours": -202.1
+      }
+    }
+  },
+  "utilization": {
+    "overall_pct": 29.55,
+    "by_group_pct": {
+      "CUT": 30.86,
+      "MILL": 35.54,
+      "DRILL": 15.72,
+      "WELD": 44.17,
+      "PAINT": 28.16,
+      "ASSEMBLE": 34.22,
+      "TEST": 16.77
+    },
+    "busiest_machine_pct": 47.52,
+    "least_busy_active_machine_pct": 9.8
+  },
+  "changeover": {
+    "total_minutes": 40873,
+    "setups": 1275,
+    "share_of_busy_time_pct": 17.99
+  },
+  "materials": {
+    "lots": 348,
+    "delayed_lots": 25,
+    "operations_waiting_for_material": 372,
+    "material_wait_hours_total": 36122.1,
+    "max_material_wait_hours": 338.8,
+    "mean_capacity_wait_hours_per_operation": 10.61
+  },
+  "exceptions": {
+    "violations_by_type": {
+      "LATE_DELIVERY": 3
+    },
+    "blocked_operations_explained_pct": 100.0,
+    "hard_constraint_violations": {}
+  },
+  "acceptance_criteria": [
+    {
+      "criterion": "Schedules satisfy hard constraints",
+      "measure": "0 hard-constraint violations found by the independent checker",
+      "passed": true
+    },
+    {
+      "criterion": "Makespan and lateness are computable",
+      "measure": "makespan 604.2 h; lateness defined for 500 planned orders",
+      "passed": true
+    },
+    {
+      "criterion": "Any infeasibility is explained",
+      "measure": "0 of 0 blocked operations have a ConstraintViolation",
+      "passed": true
+    },
+    {
+      "criterion": "Material and machine calendars are respected",
+      "measure": "0 shift/staffing/material violations",
+      "passed": true
+    }
+  ]
+}
