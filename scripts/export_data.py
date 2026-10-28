@@ -1,4 +1,4 @@
-"""Step 9: package the deliverables into exports/<scale>/.
+"""Package the deliverables into exports/<scale>/.
 
 Run scripts/run_schedule.py, inject_anomalies.py and validate.py first
 (or just run scripts/build_all.py, which does everything in order).

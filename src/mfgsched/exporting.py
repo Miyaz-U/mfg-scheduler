@@ -1,4 +1,4 @@
-"""Step 9: export helpers (JSON, SQL schema, SQL seed data, manifest).
+"""Export helpers (JSON, SQL schema, SQL seed data, manifest).
 
 The SQL schema is generated from mfgsched.schema, so it can never drift from
 the data dictionary. Everything here is deterministic: same input tables give

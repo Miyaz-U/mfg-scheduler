@@ -1,4 +1,4 @@
-"""Step 6: evaluation metrics, derived only from source records.
+"""Evaluation metrics, derived only from source records.
 
 Every function takes the table dictionary (in memory or loaded from CSV files)
 and recomputes its numbers from scratch.

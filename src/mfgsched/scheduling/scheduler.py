@@ -1,4 +1,4 @@
-"""Step 5: constructive scheduler (priority dispatching, earliest completion).
+"""Constructive scheduler (priority dispatching, earliest completion).
 
 An operation is "ready" when its predecessor has finished (or its order is
 released) and its materials have arrived. Ready operations are taken day by day

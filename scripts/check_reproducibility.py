@@ -1,4 +1,4 @@
-"""Step 10: prove the generator is reproducible.
+"""Prove the generator is reproducible.
 
 Builds every dataset twice from the fixed seed, in two separate processes with
 different PYTHONHASHSEED values, then compares row counts and SHA-256 checksums

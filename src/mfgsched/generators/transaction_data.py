@@ -1,4 +1,4 @@
-"""Step 4: generate dependent (transaction) data.
+"""Generate dependent (transaction) data.
 
 Order: MachineCalendar; ProductionOrder -> Operation -> MaterialRequirement
 (+ OrderStatusEvent); then InventoryLot, built from the requirements.

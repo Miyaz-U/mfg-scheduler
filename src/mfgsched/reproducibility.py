@@ -1,4 +1,4 @@
-"""Step 10: rebuild the datasets from the seed and fingerprint every output file."""
+"""Rebuild the datasets from the seed and fingerprint every output file."""
 from __future__ import annotations
 
 import json

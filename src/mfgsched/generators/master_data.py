@@ -1,4 +1,4 @@
-"""Step 3: generate master (parent) data.
+"""Generate master (parent) data.
 
 Dependency order: Product -> Routing, Machine -> RoutingStep -> bridges.
 Each table uses its own random stream (see common.get_rng).

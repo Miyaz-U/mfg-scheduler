@@ -1,4 +1,4 @@
-"""Step 7: inject labelled edge cases into a valid baseline schedule.
+"""Inject labelled edge cases into a valid baseline schedule.
 
 Every case changes exactly ONE record. Boundary cases (margin 0) are valid rows
 labelled ACCEPT, so we can also measure false alarms. After injecting, the

@@ -1,4 +1,4 @@
-"""Step 8: the validation suite.
+"""The validation suite.
 
 Every check takes (tables, cfg, ground_truth) and returns a list of problem
 messages; an empty list means PASS. A check may raise Skipped. Checks are grouped
